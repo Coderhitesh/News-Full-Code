@@ -1,0 +1,18 @@
+.headlines-marquee {
+    display: flex;
+    animation: marquee 5s linear infinite;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    color: #003873;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

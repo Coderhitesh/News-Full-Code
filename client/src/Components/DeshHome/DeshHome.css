@@ -1,0 +1,130 @@
+.desh-section{
+    width: 100%;
+    background-color: white;
+}
+
+.desh-section .desh-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 40px ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desh-section .desh-container .heading{
+    width: 100%;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.desh-section .desh-container .heading h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.desh-section .desh-container .main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.desh-section .desh-container .main-container .left{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desh-section .desh-container .main-container .left .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.desh-section .desh-container .main-container .left .top .img{
+    width: 30%;
+}
+
+.desh-section .desh-container .main-container .left .top .img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.desh-section .desh-container .main-container .left .top .text{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 6px;
+}
+
+.desh-section .desh-container .main-container .left .top .text .detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desh-section .desh-container .main-container .left .top .text h3{
+    font-weight: 700;
+}
+
+.desh-section .desh-container .main-container .left .top .text .detail .category{
+    background-color: red;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+
+.desh-section .desh-container .main-container .left .bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desh-section .desh-container .main-container .left .bottom a{
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.desh-section .desh-container .main-container .right{
+    width: 48%;
+}
+
+@media (max-width:750px) {
+
+    .desh-section .desh-container {
+        padding: 40px 20px;
+    }
+
+    .desh-section .desh-container .main-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .desh-section .desh-container .main-container .left{
+        width: 100%;
+    }
+    
+    .desh-section .desh-container .main-container .right{
+        width: 100%;
+    }
+
+    .desh-section .desh-container .main-container .left .top{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .desh-section .desh-container .main-container .left .top .img{
+        width: 100%;
+    }
+
+    .desh-section .desh-container .main-container .left .top .text{
+        width: 100%;
+    }
+    
+}
